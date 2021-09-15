@@ -132,6 +132,7 @@ console.log(setValues)
                 onClick={filtro}
                 >Buscar</button>
                 <br /> <br />
+                <h1 className="titleBodega">BODEGA MI TIENDITA</h1>
                 <table className="table">
                     <thead>
                         <tr>
