@@ -38,7 +38,7 @@ const Contenido = () => {
                  <Desuento className="card-text"><strong>{verdura.porcentaje}</strong></Desuento>
                     <img src={verdura.imagen} className="cars card-img-top" alt="..."/>
                      <Precio className="card-title"><strong>{verdura.precio}</strong> <PreDes>{verdura.descuento}</PreDes></Precio>
-                     <p className="card-text">{verdura.nombre}</p>
+                     <p className="card-name" id="name">{verdura.nombre}</p>
                      <button  className="btn btn-primary">Agregar</button>
                      
                      </Link>
@@ -46,6 +46,7 @@ const Contenido = () => {
              
              })
             }
+            <h3 className="Ticlepopu"><strong>Los más populares</strong></h3>
             </div>
         </div>
         

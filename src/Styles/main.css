@@ -39,6 +39,12 @@ body{
   justify-content: center;
   /* color: rgb(97, 94, 94) */
 }
+#name{
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
 .imgModal{
   width: 400px;
   height: 250px;
@@ -59,6 +65,23 @@ body{
   width: 200px;
   border-radius:10px;
   color:white
+}
+#btnEliminar{
+  background-color:red;
+  color:rgba(255, 0, 0, 0.384);
+  width:80px;
+  margin-top:1rem;
+  border-radius:15px;
+}
+#btnEdit{
+  color:rgb(255, 255, 255);
+  background-color:blue;
+  width:80px;
+  margin-top:1rem;
+  border-radius:15px;
+}
+.iconE{
+  color:white;
 }
 .footer{
   height:100px;

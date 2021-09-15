@@ -149,14 +149,16 @@ const titleDetalles = styled.h1`
 const precioDetalles = styled.h1`
      
    color: #000000;
-   font-size: 35px;
+   font-size: 40px;
+   font-family: 'Oswald', sans-serif;
     
 `;
 
 const descripcionD = styled.p`
      
    color: #000000;
-   font-size: 13px;
+   font-size: 18px;
+   font-family: 'Oswald', sans-serif;
     
 `;
 
