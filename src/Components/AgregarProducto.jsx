@@ -212,7 +212,7 @@ export default class AgregarProducto extends Component {
 
                 <Modal isOpen={this.state.modalEliminar}>
                     <ModalBody>
-                        Está seguro que desea eliminar el producto {form && form.nombre}
+                        Está seguro que desea eliminar el producto {form && form.id}
                     </ModalBody>
                     <ModalFooter>
                         <button className="btnDel"
